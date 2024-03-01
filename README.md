@@ -2,32 +2,32 @@
 
 - this file contains a base processor with a Von Neumann architecture that handles 25 different functions.
   
-- Operator          OPcode in HEX            Description
-- AND               0 OR 8                   M & AC
-- ADD               0 OR 9                   M + AC
-- LDA               2 OR A                   load AC from M
-- STA               3 OR B                   save AC in M
-- BUN               4 OR C                   branch to M
-- BSA               5 OR D                   save return address to M and go to M + 1
-- ISZ               6 OR E                   add 1 to M and if its 0 skip the next register
-- CLA               7800                     clear AC
-- CLE               7400                     clear E
-- CMA               7200                     complement AC
-- CME               7100                     complement E
-- CIR               7080                     rotate AC and E to right
-- CIL               7040                     rotate AC and E to left
-- INC               7020                     add 1 to AC
-- SPA               7010                     skip a register if AC is positive
-- SNA               7008                     skip a register if AC is negative
-- SZA               7004                     skip a register if AC is zero
-- SZE               7002                     skip a register if E is zero
-- HLT               7001                     halt
-- INP               F800                     get data from input and set the flag bit to zero
-- OUT               F400                     send data to output and zet the flag bit to zero
-- SKI               F200                     skip a register if input flag is 1
-- SKO               F100                     skip a register if output flag is 1
-- ION               F080                     interupt on
-- IOF               F040                     interupt off
+- Operator__________OPcode in HEX____________Description
+- AND_______________0 OR 8___________________M & AC
+- ADD_______________0 OR 9___________________M + AC
+- LDA_______________2 OR A___________________load AC from M
+- STA_______________3 OR B___________________save AC in M
+- BUN_______________4 OR C___________________branch to M
+- BSA_______________5 OR D___________________save return address to M and go to M + 1
+- ISZ_______________6 OR E___________________add 1 to M and if its 0 skip the next register
+- CLA_______________7800_____________________clear AC
+- CLE_______________7400_____________________clear E
+- CMA_______________7200_____________________complement AC
+- CME_______________7100_____________________complement E
+- CIR_______________7080_____________________rotate AC and E to right
+- CIL_______________7040_____________________rotate AC and E to left
+- INC_______________7020_____________________add 1 to AC
+- SPA_______________7010_____________________skip a register if AC is positive
+- SNA_______________7008_____________________skip a register if AC is negative
+- SZA_______________7004_____________________skip a register if AC is zero
+- SZE_______________7002_____________________skip a register if E is zero
+- HLT_______________7001_____________________halt
+- INP_______________F800_____________________get data from input and set the flag bit to zero
+- OUT_______________F400_____________________send data to output and zet the flag bit to zero
+- SKI_______________F200_____________________skip a register if input flag is 1
+- SKO_______________F100_____________________skip a register if output flag is 1
+- ION_______________F080_____________________interupt on
+- IOF_______________F040_____________________interupt off
 
 #Sample Programs in Memory
 
