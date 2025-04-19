@@ -89,3 +89,35 @@ RAM[65] = 16'h0042;
 RAM[66] = 16'h0003;
 RAM[67] = 16'h0001;
 for(i = 68; i < 128; i++) RAM[i] = 0;
+---
+
+### ✖️ Sample 2: `P = X * Y`
+
+**Description**: This program multiplies two variables `X` and `Y` by performing repeated addition and stores the result in memory. It simulates multiplication using basic instructions without built-in multiply support.
+
+```verilog
+for(i = 0; i < 50; i++) RAM[i] = 0;
+
+// Main
+RAM[50] = 16'h7400;
+RAM[51] = 16'h2044;
+RAM[52] = 16'h7080;
+RAM[53] = 16'h3044;
+RAM[54] = 16'h7002;
+RAM[55] = 16'h4039;
+RAM[56] = 16'h403d;
+RAM[57] = 16'h2043;
+RAM[58] = 16'h1045;
+RAM[59] = 16'h3045;
+RAM[60] = 16'h7400;
+RAM[61] = 16'h2043;
+RAM[62] = 16'h7040;
+RAM[63] = 16'h3043;
+RAM[64] = 16'h6046;
+RAM[65] = 16'h4032;
+RAM[66] = 16'h7001;
+RAM[67] = 16'h0004;
+RAM[68] = 16'h000d;
+RAM[69] = 16'h0000;
+RAM[70] = 16'hfff8;
+for(i = 71; i < 128; i++) RAM[i] = 0;
