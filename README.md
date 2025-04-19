@@ -89,8 +89,8 @@ RAM[65] = 16'h0042;
 RAM[66] = 16'h0003;
 RAM[67] = 16'h0001;
 for(i = 68; i < 128; i++) RAM[i] = 0;
----
 
+```
 ### ✖️ Sample 2: `P = X * Y`
 
 **Description**: This program multiplies two variables `X` and `Y` by performing repeated addition and stores the result in memory. It simulates multiplication using basic instructions without built-in multiply support.
@@ -121,3 +121,5 @@ RAM[68] = 16'h000d;
 RAM[69] = 16'h0000;
 RAM[70] = 16'hfff8;
 for(i = 71; i < 128; i++) RAM[i] = 0;
+```
+---
