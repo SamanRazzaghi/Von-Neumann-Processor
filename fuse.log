@@ -1,0 +1,49 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/Saman/Documents/ISE/vonvon25/von25/test_cpu_isim_beh.exe" -prj "C:/Users/Saman/Documents/ISE/vonvon25/von25/test_cpu_beh.prj" "work.test_cpu" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Saman/Documents/ISE/vonvon25/von25/sc.v" into library work
+Analyzing Verilog file "C:/Users/Saman/Documents/ISE/vonvon25/von25/S.v" into library work
+Analyzing Verilog file "C:/Users/Saman/Documents/ISE/vonvon25/von25/R.v" into library work
+Analyzing Verilog file "C:/Users/Saman/Documents/ISE/vonvon25/von25/encoer83.v" into library work
+Analyzing Verilog file "C:/Users/Saman/Documents/ISE/vonvon25/von25/decoder38.v" into library work
+Analyzing Verilog file "C:/Users/Saman/Documents/ISE/vonvon25/von25/comparator.v" into library work
+Analyzing Verilog file "C:/Users/Saman/Documents/ISE/vonvon25/von25/regpc.v" into library work
+Analyzing Verilog file "C:/Users/Saman/Documents/ISE/vonvon25/von25/reg7.v" into library work
+Analyzing Verilog file "C:/Users/Saman/Documents/ISE/vonvon25/von25/reg16.v" into library work
+Analyzing Verilog file "C:/Users/Saman/Documents/ISE/vonvon25/von25/reg12.v" into library work
+Analyzing Verilog file "C:/Users/Saman/Documents/ISE/vonvon25/von25/Memory.v" into library work
+Analyzing Verilog file "C:/Users/Saman/Documents/ISE/vonvon25/von25/flipflop.v" into library work
+Analyzing Verilog file "C:/Users/Saman/Documents/ISE/vonvon25/von25/ControlUnit.v" into library work
+Analyzing Verilog file "C:/Users/Saman/Documents/ISE/vonvon25/von25/BUS.v" into library work
+Analyzing Verilog file "C:/Users/Saman/Documents/ISE/vonvon25/von25/ALU.v" into library work
+Analyzing Verilog file "C:/Users/Saman/Documents/ISE/vonvon25/von25/cpu.v" into library work
+Analyzing Verilog file "C:/Users/Saman/Documents/ISE/vonvon25/von25/test_cpu.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module sc
+Compiling module decoder38
+Compiling module encoer83
+Compiling module comparator
+Compiling module S
+Compiling module R
+Compiling module ControlUnit
+Compiling module Memory
+Compiling module reg12
+Compiling module regpc
+Compiling module reg16
+Compiling module reg7
+Compiling module BUS
+Compiling module ALU
+Compiling module flipflop
+Compiling module cpu
+Compiling module test_cpu
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 18 Verilog Units
+Built simulation executable C:/Users/Saman/Documents/ISE/vonvon25/von25/test_cpu_isim_beh.exe
+Fuse Memory Usage: 31048 KB
+Fuse CPU Usage: 546 ms

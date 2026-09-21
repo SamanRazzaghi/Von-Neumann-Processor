@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj von25 -o C:/Users/Saman/Documents/ISE/CPU_amir/von25/S.tfi -lib work C:/Users/Saman/Documents/ISE/CPU_amir/von25//S.v -module S -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

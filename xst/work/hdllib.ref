@@ -1,0 +1,16 @@
+MO ControlUnit NULL ControlUnit.v vlg71/_control_unit.bin 1643620748
+MO BUS NULL BUS.v vlg6E/_b_u_s.bin 1643620748
+MO decoder38 NULL decoder38.v vlg69/decoder38.bin 1643620748
+MO cpu NULL cpu.v vlg50/cpu.bin 1643620748
+MO regpc NULL regpc.v vlg45/regpc.bin 1643620748
+MO Memory NULL Memory.v vlg49/_memory.bin 1643620748
+MO R NULL R.v vlg52/_r.bin 1643620748
+MO S NULL S.v vlg53/_s.bin 1643620748
+MO reg12 NULL reg12.v vlg59/reg12.bin 1643620748
+MO reg16 NULL reg16.v vlg5D/reg16.bin 1643620748
+MO sc NULL sc.v vlg22/sc.bin 1643620748
+MO flipflop NULL flipflop.v vlg5C/flipflop.bin 1643620748
+MO ALU NULL ALU.v vlg2A/_a_l_u.bin 1643620748
+MO encoer83 NULL encoer83.v vlg5B/encoer83.bin 1643620748
+MO comparator NULL comparator.v vlg6C/comparator.bin 1643620748
+MO reg7 NULL reg7.v vlg41/reg7.bin 1643620748
