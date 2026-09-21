@@ -8,7 +8,7 @@ This project implements a basic processor using the Von Neumann architecture. It
 
 The complete project is available in the **[Releases](https://github.com/SamanRazzaghi/Von-Neumann-Processor/releases)** section.
 
-Download the latest release and extract the archive to get the complete project files, including the main `CPU.v` Verilog source file.
+Download the latest release and extract the archive to get the complete project files, including the main `cpu.v` Verilog source file and the memory module `Memory.v`.
 
 ---
 
